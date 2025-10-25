@@ -1,7 +1,12 @@
 <h1 align="center">Hi! 🙌 This is Adittya Dey</h1>
 <h3 align="center">WELCOME TO MY GITHUB PROFILE</h3>
-<img href="https://media.licdn.com/dms/image/v2/D5616AQFiRLacsROsKA/profile-displaybackgroundimage-shrink_350_1400/B56ZcM4FUYGsAY-/0/1748267719759?e=1762992000&v=beta&t=DnCCqTQOLUMmH-OQ98kaAqkm7IfS6jj9AOvYC0FQbuI">
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/v2/D5616AQFiRLacsROsKA/profile-displaybackgroundimage-shrink_350_1400/B56ZcM4FUYGsAY-/0/1748267719759?e=1762992000&v=beta&t=DnCCqTQOLUMmH-OQ98kaAqkm7IfS6jj9AOvYC0FQbuI" alt="banner" width="100%" />
+</p>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=adittya202" alt="adittya202" /></a> </p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=adittya202" alt="adittya202" /></a> </p>
