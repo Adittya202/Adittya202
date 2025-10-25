@@ -1,4 +1,4 @@
-<h1 align="center">Hi, This is Adittya Dey</h1>
+<h1 align="center">Hi! 🙌 This is Adittya Dey</h1>
 <h3 align="center">I’m a passionate CSE student currently studying at Brac University and completing my under graduation</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> </p>
