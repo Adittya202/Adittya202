@@ -37,8 +37,7 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en" alt="adittya202" /></p>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?usernameAdittya&theme=github_dark_dimmed&hide_border=false&include_all_commits=false&count_private=false)
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 ![Leetcode Stats](https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap)
 
