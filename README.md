@@ -3,10 +3,6 @@
   <h3>WELCOME TO MY GITHUB PROFILE</h3>
 </div>
 
-<p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D5616AQFiRLacsROsKA/profile-displaybackgroundimage-shrink_350_1400/B56ZcM4FUYGsAY-/0/1748267719759?e=1762992000&v=beta&t=DnCCqTQOLUMmH-OQ98kaAqkm7IfS6jj9AOvYC0FQbuI" alt="banner" width="100%"/>
-</p>
-
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> 
 </p>
@@ -14,12 +10,6 @@
 <p align="left"> 
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=adittya202" alt="adittya202" />
-  </a> 
-</p>
-
-<p align="left"> 
-  <a href="https://twitter.com/" target="blank">
-    <img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" />
   </a> 
 </p>
 
@@ -62,21 +52,18 @@
 
 ### GitHub Stats:
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adittya202&show_icons=true&locale=en&layout=compact" alt="adittya202" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en" alt="adittya202" />
-    </td>
-  </tr>
-</table>
-
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap" alt="Leetcode Stats"/>
-</div>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adittya202&show_icons=true&locale=en&layout=compact" alt="Adittya's Top Languages" />
+  
+  <br/>
+  
+  <img src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en" alt="Adittya's GitHub Stats" />
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adittya202&" alt="adittya202" />
+  <br/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adittya202&" alt="Adittya's GitHub Streak" />
+  
+  <br/>
+
+  <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap" alt="Adittya's Leetcode Stats"/>
 </div>
