@@ -50,18 +50,16 @@
 
 ---
 
-### GitHub Stats:
+### Competitive Programming & Stats:
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adittya202&show_icons=true&locale=en&layout=compact&cache_buster=A" alt="Adittya's Top Languages" />
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en&cache_buster=B" alt="Adittya's GitHub Stats" />
-
-  <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adittya202&" alt="Adittya's GitHub Streak" />
+  <h4>Codeforces Record:</h4>
+  <a href="https://codeforces.com/profile/colo_ssus" target="_blank">
+    <img src="https://codeforces-status-badge.vercel.app/api/codeforces/badge?handle=colo_ssus&style=for-the-badge&theme=dark" alt="Codeforces Status: colo_ssus"/>
+  </a>
   
   <br/>
 
+  <h4>LeetCode Activity:</h4>
   <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap" alt="Adittya's Leetcode Stats"/>
 </div>
