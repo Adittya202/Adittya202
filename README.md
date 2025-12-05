@@ -7,11 +7,11 @@
   <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> 
 </p>
 
-<p align="left"> 
+<div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=adittya202" alt="adittya202" />
   </a> 
-</p>
+</div>
 
 ---
 
@@ -53,11 +53,9 @@
 ### GitHub Stats:
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adittya202&show_icons=true&locale=en&layout=compact" alt="Adittya's Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=adittya202&show_icons=true&locale=en&layout=compact&cache_buster=A" alt="Adittya's Top Languages" />
   
-  <br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en" alt="Adittya's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=adittya202&show_icons=true&locale=en&cache_buster=B" alt="Adittya's GitHub Stats" />
 
   <br/>
 
