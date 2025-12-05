@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/Adittya202/Adittya202/main/Gemini_Generated_Image_7vkjck7vkjck7vkj.png](https://github.com/Adittya202/Adittya202/blob/main/github.png)" alt="Adittya Dey Welcome Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Adittya202/Adittya202/main/github.png" alt="Adittya Dey Banner" width="100%"/>
 </div>
 
 <div align="center">
@@ -44,26 +44,4 @@
 ### Languages and Tools:
 
 <p align="left"> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-  <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> 
-</p>
-
----
-
-### Competitive Programming & Stats:
-
-<div align="center">
-  <h4>Codeforces Record:</h4>
-  <a href="https://codeforces.com/profile/colo_ssus" target="_blank">
-    <img src="https://img.shields.io/badge/Codeforces-View%20Profile-brightgreen?style=for-the-badge&logo=codeforces" alt="Codeforces Profile Badge"/>
-  </a>
-  
-  <br/>
-
-  <h4>LeetCode Activity:</h4>
-  <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap&v=1" alt="Adittya's Leetcode Stats"/>
-</div>
+  <a href="
