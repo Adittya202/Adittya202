@@ -55,11 +55,11 @@
 <div align="center">
   <h4>Codeforces Record:</h4>
   <a href="https://codeforces.com/profile/colo_ssus" target="_blank">
-    <img src="https://codeforces-status-badge.vercel.app/api/codeforces/badge?handle=colo_ssus&style=for-the-badge&theme=dark" alt="Codeforces Status: colo_ssus"/>
+    <img src="https://img.shields.io/badge/Codeforces-View%20Profile-brightgreen?style=for-the-badge&logo=codeforces" alt="Codeforces Profile Badge"/>
   </a>
   
   <br/>
 
   <h4>LeetCode Activity:</h4>
-  <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap" alt="Adittya's Leetcode Stats"/>
+  <img src="https://leetcard.jacoblin.cool/AdittyaDey?ext=heatmap&v=1" alt="Adittya's Leetcode Stats"/>
 </div>
