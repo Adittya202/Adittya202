@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/Adittya202/Adittya202/main/Gemini_Generated_Image_7vkjck7vkjck7vkj.png" alt="Adittya Dey Welcome Banner" width="100%"/>
+</div>
+
+<div align="center">
   <h1>Hi! This is Adittya Dey</h1>
   <h3>WELCOME TO MY GITHUB PROFILE</h3>
 </div>
