@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Adittya202/Adittya202/main/Gemini_Generated_Image_7vkjck7vkjck7vkj.png" alt="Adittya Dey Welcome Banner" width="100%"/>
+  <img src="[https://raw.githubusercontent.com/Adittya202/Adittya202/main/Gemini_Generated_Image_7vkjck7vkjck7vkj.png](https://github.com/Adittya202/Adittya202/blob/main/github.png)" alt="Adittya Dey Welcome Banner" width="100%"/>
 </div>
 
 <div align="center">
