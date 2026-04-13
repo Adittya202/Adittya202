@@ -11,7 +11,7 @@
   <img src="https://komarev.com/ghpvc/?username=adittya202&label=Profile%20views&color=0e75b6&style=flat" alt="adittya202" /> 
 </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/Adittya202ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Adittya202)](https://github.com/Adittya202)
 
 ---
 
