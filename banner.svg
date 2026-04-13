@@ -1,0 +1,240 @@
+<svg width="100%" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .grid { stroke: #161b22; stroke-width: 0.5; }
+      .name-a { font-family: 'Segoe UI', Arial, sans-serif; font-size: 58px; font-weight: 800; fill: #e6edf3; }
+      .name-b { font-family: 'Segoe UI', Arial, sans-serif; font-size: 58px; font-weight: 800; fill: #58a6ff; }
+      .role { font-family: 'Courier New', monospace; font-size: 15px; fill: #8b949e; }
+      .univ { font-family: 'Courier New', monospace; font-size: 15px; fill: #39d353; }
+      .str { font-family: 'Courier New', monospace; font-size: 15px; fill: #a5d6ff; }
+      .tag-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .dim { fill: #8b949e; font-family: 'Courier New', monospace; font-size: 11px; }
+      .dot-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #c9d1d9; }
+      .status-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #8b949e; }
+
+      /* Name shimmer */
+      @keyframes shimmer {
+        0%,100% { opacity:1; }
+        50% { opacity:0.75; }
+      }
+      .name-b { animation: shimmer 3s ease-in-out infinite; }
+
+      /* Typing cursor blink */
+      @keyframes blink {
+        0%,49% { opacity:1; }
+        50%,100% { opacity:0; }
+      }
+      .cursor { animation: blink 1s step-end infinite; fill: #58a6ff; }
+
+      /* Tag fade-in cascade */
+      @keyframes fadeUp {
+        from { opacity:0; transform: translateY(8px); }
+        to   { opacity:1; transform: translateY(0); }
+      }
+      .tag1 { animation: fadeUp 0.5s ease 0.3s both; }
+      .tag2 { animation: fadeUp 0.5s ease 0.6s both; }
+      .tag3 { animation: fadeUp 0.5s ease 0.9s both; }
+      .tag4 { animation: fadeUp 0.5s ease 1.2s both; }
+      .tag5 { animation: fadeUp 0.5s ease 1.5s both; }
+      .tag6 { animation: fadeUp 0.5s ease 1.8s both; }
+
+      /* Dot pulse */
+      @keyframes pulse {
+        0%,100% { r: 4; opacity:1; }
+        50% { r: 6; opacity:0.6; }
+      }
+      .dot1 { animation: pulse 2s ease-in-out 0s infinite; }
+      .dot2 { animation: pulse 2s ease-in-out 0.5s infinite; }
+      .dot3 { animation: pulse 2s ease-in-out 1s infinite; }
+      .dot4 { animation: pulse 2s ease-in-out 1.5s infinite; }
+
+      /* Circuit trace draw */
+      @keyframes draw {
+        from { stroke-dashoffset: 200; }
+        to   { stroke-dashoffset: 0; }
+      }
+      .trace { stroke-dasharray: 200; animation: draw 2s ease forwards; }
+      .trace2 { stroke-dasharray: 200; animation: draw 2s ease 0.5s forwards; stroke-dashoffset: 200; }
+
+      /* Scan line */
+      @keyframes scan {
+        0%   { transform: translateY(-10px); opacity:0.6; }
+        100% { transform: translateY(400px); opacity:0; }
+      }
+      .scanline { animation: scan 4s linear infinite; }
+
+      /* Glow breathe */
+      @keyframes breathe {
+        0%,100% { opacity: 0.06; }
+        50%      { opacity: 0.12; }
+      }
+      .glow1 { animation: breathe 4s ease-in-out infinite; }
+      .glow2 { animation: breathe 4s ease-in-out 2s infinite; }
+
+      /* Status dot blink */
+      @keyframes statusBlink {
+        0%,100% { fill: #39d353; }
+        50%      { fill: #2ea043; }
+      }
+      .status-dot { animation: statusBlink 2s ease-in-out infinite; }
+
+      /* Floating particles */
+      @keyframes float1 {
+        0%,100% { transform: translate(0,0); opacity:0.4; }
+        33%      { transform: translate(6px,-8px); opacity:0.8; }
+        66%      { transform: translate(-4px,4px); opacity:0.5; }
+      }
+      @keyframes float2 {
+        0%,100% { transform: translate(0,0); opacity:0.3; }
+        50%      { transform: translate(-8px,-6px); opacity:0.7; }
+      }
+      .p1 { animation: float1 5s ease-in-out infinite; }
+      .p2 { animation: float2 6s ease-in-out 1s infinite; }
+      .p3 { animation: float1 7s ease-in-out 2s infinite; }
+      .p4 { animation: float2 4s ease-in-out 3s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" class="bg"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="50" x2="1200" y2="50" class="grid"/>
+  <line x1="0" y1="100" x2="1200" y2="100" class="grid"/>
+  <line x1="0" y1="150" x2="1200" y2="150" class="grid"/>
+  <line x1="0" y1="200" x2="1200" y2="200" class="grid"/>
+  <line x1="0" y1="250" x2="1200" y2="250" class="grid"/>
+  <line x1="0" y1="300" x2="1200" y2="300" class="grid"/>
+  <line x1="0" y1="350" x2="1200" y2="350" class="grid"/>
+
+  <line x1="100" y1="0" x2="100" y2="400" class="grid"/>
+  <line x1="200" y1="0" x2="200" y2="400" class="grid"/>
+  <line x1="300" y1="0" x2="300" y2="400" class="grid"/>
+  <line x1="400" y1="0" x2="400" y2="400" class="grid"/>
+  <line x1="500" y1="0" x2="500" y2="400" class="grid"/>
+  <line x1="600" y1="0" x2="600" y2="400" class="grid"/>
+  <line x1="700" y1="0" x2="700" y2="400" class="grid"/>
+  <line x1="800" y1="0" x2="800" y2="400" class="grid"/>
+  <line x1="900" y1="0" x2="900" y2="400" class="grid"/>
+  <line x1="1000" y1="0" x2="1000" y2="400" class="grid"/>
+  <line x1="1100" y1="0" x2="1100" y2="400" class="grid"/>
+
+  <!-- Glow orbs -->
+  <circle cx="900" cy="200" r="200" fill="#1f6feb" class="glow1"/>
+  <circle cx="200" cy="300" r="140" fill="#bc8cff" class="glow2"/>
+
+  <!-- Scan line -->
+  <rect x="0" y="0" width="1200" height="2" fill="#58a6ff" opacity="0.15" class="scanline"/>
+
+  <!-- Circuit traces left -->
+  <polyline points="30,80 80,80 80,130 130,130" fill="none" stroke="#1e3a5f" stroke-width="1" class="trace"/>
+  <circle cx="80" cy="80" r="3" fill="#1e3a5f"/>
+  <circle cx="130" cy="130" r="3" fill="#1e3a5f"/>
+  <polyline points="30,280 60,280 60,320 90,320" fill="none" stroke="#1e3a5f" stroke-width="1" class="trace2"/>
+  <circle cx="60" cy="280" r="2.5" fill="#1e3a5f"/>
+
+  <!-- Circuit traces right -->
+  <polyline points="1170,90 1120,90 1120,140 1080,140" fill="none" stroke="#1e3a5f" stroke-width="1" class="trace"/>
+  <circle cx="1120" cy="90" r="3" fill="#1e3a5f"/>
+  <polyline points="1170,310 1140,310 1140,270 1110,270" fill="none" stroke="#1e3a5f" stroke-width="1" class="trace2"/>
+  <circle cx="1140" cy="310" r="2.5" fill="#1e3a5f"/>
+
+  <!-- Floating particles -->
+  <circle cx="950" cy="80" r="2" fill="#58a6ff" class="p1"/>
+  <circle cx="1050" cy="130" r="1.5" fill="#bc8cff" class="p2"/>
+  <circle cx="1080" cy="220" r="2" fill="#39d353" class="p3"/>
+  <circle cx="980" cy="300" r="1.5" fill="#f78166" class="p4"/>
+  <circle cx="870" cy="60" r="1.5" fill="#58a6ff" class="p2"/>
+  <circle cx="820" cy="330" r="2" fill="#bc8cff" class="p1"/>
+
+  <!-- Binary decoration top right -->
+  <text x="1060" y="28" class="dim" opacity="0.4">01001000 11010110</text>
+  <text x="1060" y="42" class="dim" opacity="0.3">00111001 10101010</text>
+
+  <!-- Top comment -->
+  <text x="60" y="30" class="dim">// profile.init() — Adittya Dey</text>
+
+  <!-- Bracket open -->
+  <text x="55" y="115" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#58a6ff">{</text>
+
+  <!-- Name -->
+  <text x="108" y="115" class="name-a">Adittya</text>
+  <text x="430" y="115" class="name-b">Dey</text>
+
+  <!-- Cursor after name -->
+  <rect x="556" y="72" width="4" height="48" class="cursor"/>
+
+  <!-- Role line -->
+  <text x="108" y="152" class="role">const role = </text>
+  <text x="238" y="152" class="str">"CSE Undergraduate"</text>
+  <text x="475" y="152" class="role"> @ </text>
+  <text x="500" y="152" class="univ">BRAC University</text>
+
+  <!-- Divider -->
+  <line x1="108" y1="168" x2="780" y2="168" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Comment line -->
+  <text x="108" y="190" class="dim">// tech_stack[ ]</text>
+
+  <!-- Tech tags -->
+  <g class="tag1">
+    <rect x="108" y="200" width="72" height="26" rx="5" fill="#0d2137" stroke="#1f6feb" stroke-width="1"/>
+    <text x="144" y="217" text-anchor="middle" class="tag-text" fill="#58a6ff">AI / ML</text>
+  </g>
+  <g class="tag2">
+    <rect x="190" y="200" width="86" height="26" rx="5" fill="#0d1f0d" stroke="#238636" stroke-width="1"/>
+    <text x="233" y="217" text-anchor="middle" class="tag-text" fill="#3fb950">Web Dev</text>
+  </g>
+  <g class="tag3">
+    <rect x="286" y="200" width="88" height="26" rx="5" fill="#1a0d2e" stroke="#8957e5" stroke-width="1"/>
+    <text x="330" y="217" text-anchor="middle" class="tag-text" fill="#bc8cff">Full Stack</text>
+  </g>
+  <g class="tag4">
+    <rect x="384" y="200" width="68" height="26" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="418" y="217" text-anchor="middle" class="tag-text" fill="#e6edf3">Python</text>
+  </g>
+  <g class="tag5">
+    <rect x="462" y="200" width="62" height="26" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="493" y="217" text-anchor="middle" class="tag-text" fill="#e6edf3">React</text>
+  </g>
+  <g class="tag6">
+    <rect x="534" y="200" width="74" height="26" rx="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="571" y="217" text-anchor="middle" class="tag-text" fill="#e6edf3">Node.js</text>
+  </g>
+
+  <!-- Passion section -->
+  <text x="108" y="262" class="dim">// passionate_about[ ]</text>
+
+  <circle cx="112" cy="287" r="4" fill="#58a6ff" class="dot1"/>
+  <text x="124" y="292" class="dot-label">Artificial Intelligence</text>
+
+  <circle cx="310" cy="287" r="4" fill="#39d353" class="dot2"/>
+  <text x="322" y="292" class="dot-label">Open Source</text>
+
+  <circle cx="460" cy="287" r="4" fill="#bc8cff" class="dot3"/>
+  <text x="472" y="292" class="dot-label">Problem Solving</text>
+
+  <circle cx="626" cy="287" r="4" fill="#f78166" class="dot4"/>
+  <text x="638" y="292" class="dot-label">Building Products</text>
+
+  <!-- Bracket close -->
+  <text x="55" y="330" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#58a6ff">}</text>
+
+  <!-- Status bar -->
+  <rect x="0" y="368" width="1200" height="32" fill="#161b22"/>
+  <circle cx="24" cy="384" r="5" class="status-dot"/>
+  <text x="36" y="388" class="status-text">status: available_for_collaboration</text>
+  <text x="440" y="388" class="status-text">|</text>
+  <text x="460" y="388" class="status-text">location: Dhaka, BD</text>
+  <text x="680" y="388" class="status-text">|</text>
+  <text x="700" y="388" class="status-text">university: BRAC University</text>
+  <text x="1000" y="388" class="status-text">|</text>
+  <text x="1020" y="388" class="status-text">branch: main</text>
+
+  <!-- Corner dots -->
+  <circle cx="10" cy="10" r="3" fill="#30363d"/>
+  <circle cx="1190" cy="10" r="3" fill="#30363d"/>
+  <circle cx="10" cy="360" r="3" fill="#30363d"/>
+  <circle cx="1190" cy="360" r="3" fill="#30363d"/>
+</svg>
