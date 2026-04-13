@@ -5,7 +5,7 @@
 <div align="center">
   <h1>Hi! This is Adittya Dey</h1>
   <!-- Robo -->
-<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="100">
+<img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="300">
 <br><br>
 </div>
 
