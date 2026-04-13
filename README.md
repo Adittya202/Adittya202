@@ -2,8 +2,8 @@
   <img src="https://github.com/Adittya202/Adittya202/blob/main/github2.png" alt="Adittya Dey Banner" width="100%"/>
 </div>
 
-<div align="center">
-  <h1>Hi! This is Adittya Dey</h1>
+<div align="left">
+  
   <!-- Robo -->
 <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" width="300">
 <br><br>
